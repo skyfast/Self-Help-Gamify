@@ -17,7 +17,16 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Views\aboutTheCreators.xaml.cs">
+      <DependentUpon>aboutTheCreators.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
     <EmbeddedResource Update="Views\Home.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\aboutTheCreators.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\Points.xaml">
