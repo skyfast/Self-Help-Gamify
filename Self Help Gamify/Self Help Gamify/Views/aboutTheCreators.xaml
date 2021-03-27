@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Self_Help_Gamify.Views.aboutTheCreators">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="About the Creators"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            
+            <Label Text=" Coleman Young"
+                   VerticalOptions="FillAndExpand"
+                   HorizontalOptions="FillAndExpand"/>
+
+            <Label Text=" Jennifer Lance"
+                   VerticalOptions="FillAndExpand"
+                   HorizontalOptions="FillAndExpand"/>
+
+            <Label Text=" Skylar Shapiro-Frost"
+                   VerticalOptions="FillAndExpand"
+                   HorizontalOptions="FillAndExpand"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
