@@ -1,12 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Self_Help_Gamify.Views.Home">
+             x:Class="Self_Help_Gamify.Views.Home"
+             BackgroundColor="MediumOrchid">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Grid RowDefinitions="Auto, *">
+            <Label Text="Self Help Gamify"
+                HorizontalOptions="CenterAndExpand" 
+                FontSize = "Title"
+                BackgroundColor="LightBlue"/>
+            <Label Text="This will be info about the aplication wooo!"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                FontSize = "Body"
+                BackgroundColor="LightBlue"
+                Padding="12"
+                Margin="5,10,5,10"
+                Grid.Row="1"/>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
