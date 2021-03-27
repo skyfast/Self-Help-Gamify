@@ -11,11 +11,25 @@
                 HorizontalOptions="CenterAndExpand" />
                 <Button Text="Went for a Walk!"
                         Clicked="Button_Clicked"></Button>
+                <Button Text="Read for 30 mintrues!"
+                        Clicked="Button_Clicked"></Button>
+                <Button Text="Cleaned a room!"
+                        Clicked="Button_Clicked"></Button>
+                <Button Text="Finished a Homework Assignment!"
+                        Clicked="Button_Clicked"></Button>
             </StackLayout>
-            <Label Text="Your total xp is: "
-                   x:Name="EXPLable"
+            <StackLayout Grid.Row="3">
+                <Label Text="Your total xp is: "
+                x:Name="LvlLable"
                 HorizontalOptions="CenterAndExpand"
-                   Grid.Row="3"/>
+                Margin="0,0,30,0"
+                FontSize="Large"/>
+                <Label Text="Your total xp is: "
+                x:Name="EXPLable"
+                HorizontalOptions="CenterAndExpand"
+                Margin="0,0,30,0"
+                FontSize="Large"/>
+            </StackLayout>
         </Grid>
     </ContentPage.Content>
 </ContentPage>
