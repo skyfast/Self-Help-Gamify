@@ -9,9 +9,11 @@
             <StackLayout Grid.Row="1">
                 <Label Text="Click to finish a task:"
                 HorizontalOptions="CenterAndExpand" />
-                <Button Text="Went for a Walk!"></Button>
+                <Button Text="Went for a Walk!"
+                        Clicked="Button_Clicked"></Button>
             </StackLayout>
             <Label Text="Your total xp is: "
+                   x:Name="EXPLable"
                 HorizontalOptions="CenterAndExpand"
                    Grid.Row="3"/>
         </Grid>

@@ -19,6 +19,11 @@ namespace Self_Help_Gamify
 
         protected override void OnStart()
         {
+            //this should inti the exp prop if it is not already set in the app!
+            if(!Application.Current.Properties.ContainsKey("EXP"))
+            {
+                Application.Current.Properties["EXP"] = 0;
+            }
         }
 
         protected override void OnSleep()
