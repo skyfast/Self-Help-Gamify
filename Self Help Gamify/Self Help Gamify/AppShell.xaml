@@ -81,6 +81,9 @@
     <FlyoutItem Title="Home" Icon="icon_about.png">
         <ShellContent Route="Home" ContentTemplate="{DataTemplate local:Home}" />
     </FlyoutItem>
+    <FlyoutItem Title="Points" Icon="icon_about.png">
+        <ShellContent Route="Points" ContentTemplate="{DataTemplate local:Points}" />
+    </FlyoutItem>
 
 
 </Shell>
