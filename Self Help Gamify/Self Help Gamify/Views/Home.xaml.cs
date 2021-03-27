@@ -1,21 +1,20 @@
-﻿using Self_Help_Gamify.ViewModels;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 namespace Self_Help_Gamify.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class LoginPage : ContentPage
+    public partial class Home : ContentPage
     {
-        public LoginPage()
+        public Home()
         {
             InitializeComponent();
-            this.BindingContext = new LoginViewModel();
         }
     }
 }

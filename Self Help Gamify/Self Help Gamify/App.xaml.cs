@@ -1,4 +1,4 @@
-﻿using Self_Help_Gamify.Services;
+﻿//using Self_Help_Gamify.Services;
 using Self_Help_Gamify.Views;
 using System;
 using Xamarin.Forms;
@@ -13,7 +13,7 @@ namespace Self_Help_Gamify
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
+            
             MainPage = new AppShell();
         }
 
