@@ -20,9 +20,11 @@ namespace Self_Help_Gamify
         protected override void OnStart()
         {
             //this should inti the exp prop if it is not already set in the app!
-            if(!Application.Current.Properties.ContainsKey("EXP"))
+            if (!Application.Current.Properties.ContainsKey("EXP"))
             {
                 Application.Current.Properties["EXP"] = 0;
+                Application.Current.Properties["EXP_to_next_lvl"] = 30;
+                Application.Current.Properties["Level"] = 0;
             }
         }
 
