@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Self Help Gamify.Android", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Self Help Gamify.iOS", "Self Help Gamify\Self Help Gamify.iOS\Self Help Gamify.iOS.csproj", "{CC6CA2C5-DC11-40CA-B1F8-37B3987B298B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Self Help Gamify", "Self Help Gamify\Self Help Gamify\Self Help Gamify.csproj", "{F0DA27CA-6D00-4DE7-A60D-410073193EEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Self Help Gamify", "Self Help Gamify\Self Help Gamify\Self Help Gamify.csproj", "{F0DA27CA-6D00-4DE7-A60D-410073193EEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
