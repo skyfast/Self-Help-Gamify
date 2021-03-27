@@ -84,6 +84,9 @@
     <FlyoutItem Title="Points" Icon="icon_about.png">
         <ShellContent Route="Points" ContentTemplate="{DataTemplate local:Points}" />
     </FlyoutItem>
+    <FlyoutItem Title="Profile" Icon="icon_about.png">
+        <ShellContent Route="Profile" ContentTemplate="{DataTemplate local:Profile}" />
+    </FlyoutItem>
     <FlyoutItem Title="About the Creators" Icon="icon_about.png">
         <ShellContent Route="aboutTheCreators" ContentTemplate="{DataTemplate local:aboutTheCreators}" />
     </FlyoutItem>
