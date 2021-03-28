@@ -2,20 +2,17 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Self_Help_Gamify.Views.Home"
-             BackgroundColor="MediumOrchid">
+             BackgroundColor="#FFF493">
     <ContentPage.Content>
         <Grid RowDefinitions="Auto, *">
-            <Label Text="Self Help Gamify"
-                HorizontalOptions="CenterAndExpand" 
-                FontSize = "Title"
-                BackgroundColor="LightBlue"/>
+            <Image Source="MeRPGMobile.png"></Image>
             <Label Text="This will be info about the aplication wooo!"
                 HorizontalOptions="FillAndExpand"
                 VerticalOptions="FillAndExpand"
                 FontSize = "Body"
-                BackgroundColor="LightBlue"
+                TextColor="White"
+                BackgroundColor="{StaticResource Primary}"
                 Padding="12"
-                Margin="5,10,5,10"
                 Grid.Row="1"/>
         </Grid>
     </ContentPage.Content>

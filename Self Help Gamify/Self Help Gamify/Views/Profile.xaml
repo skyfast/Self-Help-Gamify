@@ -3,10 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Self_Help_Gamify.Views.Profile">
     <ContentPage.Content>
-        <Grid RowDefinitions="*,auto,*">
+        <Grid RowDefinitions="*,auto,*" BackgroundColor="#FFF493">
             <StackLayout BackgroundColor="LightBlue"
                          Grid.Row="1"
                          Margin="50,0,50,0">
+                <Image Source="FeDrLo.png" ></Image>
                 <Label Text="Text"
                        x:Name="Level"
                        HorizontalOptions="Center"

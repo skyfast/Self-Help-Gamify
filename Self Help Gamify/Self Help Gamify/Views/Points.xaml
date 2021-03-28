@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Self_Help_Gamify.Views.Points">
     <ContentPage.Content>
-        <Grid RowDefinitions="auto, auto,*, auto">
+        <Grid RowDefinitions="auto, auto,*, auto" BackgroundColor="#FFF493">
             <Label Text="Welcome to Xamarin.Forms!"
                 HorizontalOptions="CenterAndExpand" />
             <StackLayout Grid.Row="1">
