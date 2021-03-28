@@ -15,6 +15,8 @@ namespace Self_Help_Gamify.Views
         public Profile()
         {
             InitializeComponent();
+            Level.Text = $"Level: {Application.Current.Properties["Level"]}";
+            EXP.Text = $"{Application.Current.Properties["EXP"]} / {Application.Current.Properties["EXP_to_next_lvl"]} EXP ";
         }
     }
 }
