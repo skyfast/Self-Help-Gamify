@@ -4,8 +4,9 @@
              x:Class="Self_Help_Gamify.Views.Points">
     <ContentPage.Content>
         <Grid RowDefinitions="auto, auto,*, auto" BackgroundColor="#FFF493">
-            <Label Text="Welcome to Xamarin.Forms!"
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="You Can Do It!"
+                HorizontalOptions="CenterAndExpand"
+                   FontSize="30"/>
             <StackLayout Grid.Row="1">
                 <Label Text="Click to finish a task:"
                 HorizontalOptions="CenterAndExpand" />

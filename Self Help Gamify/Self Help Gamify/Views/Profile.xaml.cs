@@ -18,5 +18,11 @@ namespace Self_Help_Gamify.Views
             Level.Text = $"Level: {Application.Current.Properties["Level"]}";
             EXP.Text = $"{Application.Current.Properties["EXP"]} / {Application.Current.Properties["EXP_to_next_lvl"]} EXP ";
         }
+        //updates if there has been changes to exp / level
+        protected override void OnAppearing()
+        {
+            Level.Text = $"Level: {Application.Current.Properties["Level"]}";
+            EXP.Text = $"{Application.Current.Properties["EXP"]} / {Application.Current.Properties["EXP_to_next_lvl"]} EXP ";
+        }
     }
 }

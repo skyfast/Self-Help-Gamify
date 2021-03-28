@@ -6,7 +6,7 @@
     <ContentPage.Content>
         <Grid RowDefinitions="Auto, *">
             <Image Source="MeRPGMobile.png"></Image>
-            <Label Text="This will be info about the aplication wooo!"
+            <Label Text="What are you going to do today?"
                 HorizontalOptions="FillAndExpand"
                 VerticalOptions="FillAndExpand"
                 FontSize = "Body"
