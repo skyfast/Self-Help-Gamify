@@ -7,16 +7,18 @@
             <Label Text="About the Creators"
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            
-            <Label Text=" Coleman Young"
+
+            <Label Text="Coleman Young: Coleman is working to complete his associate of applied science degree in cyber security at Lane Community College. He enjoys listening to music, playing video games and watching movies in his free time."
+                   VerticalOptions="FillAndExpand"
+                   HorizontalOptions="FillAndExpand"
+                   ></Label>
+
+            <Label Text="Jennifer Lance: Jen is pursuing two associate of applied science degrees at Lane Community College: Game Development and Programming. She expects to graduate in June of 2022. She spends most of her free time working on a personal game development project and playing video games."
                    VerticalOptions="FillAndExpand"
                    HorizontalOptions="FillAndExpand"/>
 
-            <Label Text=" Jennifer Lance"
-                   VerticalOptions="FillAndExpand"
-                   HorizontalOptions="FillAndExpand"/>
-
-            <Label Text=" Skylar Shapiro-Frost"
+            <Label Text="Skylar Shapiro-Frost:Skylar is working on an Associate of Applied Science for Computer programming, graduating in summer 2021, and they are always looking for a new project to work on. 
+GitHub: https://github.com/skyfast"
                    VerticalOptions="FillAndExpand"
                    HorizontalOptions="FillAndExpand"/>
         </StackLayout>
